@@ -31,7 +31,7 @@ $.getJSON('/api/youtube/mead.json')
 
 });
 // Beer JSON
-$.getJSON('/api/brewery-db/zombiekiller.json')
+$.getJSON('/api/brewerydb/zombiekiller.json')
  .then(function(zombiekiller){
    console.log(zombiekiller);
 
@@ -56,7 +56,7 @@ $.getJSON('/api/brewery-db/zombiekiller.json')
 
  else {
 
- $.getJSON('/api/brewery-db/kellerweis.json')
+ $.getJSON('/api/brewerydb/kellerweis.json')
   .then(function(kellerweis){
     console.log(kellerweis);
 
@@ -94,7 +94,3 @@ $.getJSON('/api/brewery-db/zombiekiller.json')
 }
 
 });
-
-
-
-// http://www.mkyong.com/jquery/how-to-set-a-dropdown-box-value-in-jquery/

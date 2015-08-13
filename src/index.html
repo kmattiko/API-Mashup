@@ -34,11 +34,11 @@
   <div class="unit-4-12">
      <div class="beers">
          <h3>Beer Information</h3>
-         <h4 id="beername">{{name}}</h4>
+         <h4 id="beername">{{data.name}}</h4>
          <div class="beerimage"><img src="http://lorempixel.com/output/food-q-g-530-530-7.jpg"</img></div>
          <ul>
-           <li>ABV<p id="abvvalue">{{abv}}</p></li>
-           <li>Description<p id="describe">{{description}}</p></li>
+           <li>ABV<p id="abvvalue">{{data.abv}}</p></li>
+           <li>Description<p id="describe">{{data.description}}</p></li>
            <li>Category Description<p id="catdes">{{catdes}}</p></li>
          </ul>
     </div>
@@ -68,8 +68,9 @@
    <script src="../bower_components/modernizr/modernizr.js"></script>
    <script src="../bower_components/lodash/lodash.js"></script>
    <!-- endbower -->
-   <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="js/plugins.js"></script>
+
 </body>
 
 </html>
