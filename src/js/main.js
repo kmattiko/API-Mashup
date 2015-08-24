@@ -8,29 +8,17 @@ $.getJSON('/api/youtube/b-nektar.json')
 .then(function(bnektar){
   console.log(bnektar);
 
-  $vidTitle = $('#nektar');
+  $vidTitle = $('#vidTitle');
   $vidTitle.text(bnektar.title);
 
-  $vidDescript = $('#descript1');
+  $vidDescript = $('#vidDescript');
   $vidDescript.text(bnektar.description);
 
-  $vidPlay = $('#vid1');
+  $vidPlay = $('#vidPlay');
   $vidPlay.append(bnektar.html);
 
 });
 
-$.getJSON('/api/youtube/mead.json')
-.then(function(meads){
-  console.log(meads);
-
-  $vidTitle = $('#meadery');
-  $vidTitle.text(meads.title);
-
-  $vidDescript = $('#descript2');
-  $vidDescript.text(meads.description);
-
-
-});
 // Beer JSON
 $.getJSON('/api/brewerydb/zombiekiller.json')
  .then(function(zombiekiller){
@@ -55,7 +43,7 @@ $.getJSON('/api/brewerydb/zombiekiller.json')
 
    }
 
- else {
+ else if ($('#dropbox').val()=="kellerW"||"choose"){
 
  $.getJSON('/api/brewerydb/kellerweis.json')
   .then(function(kellerweis){
@@ -82,16 +70,40 @@ $.getJSON('/api/brewerydb/zombiekiller.json')
   .then(function(meads){
     console.log(meads);
 
-    $vidTitle = $('#nektar');
+    $vidTitle = $('#vidTitle');
     $vidTitle.text(meads.title);
 
-    $vidDescript = $('#descript1');
+    $vidDescript = $('#vidDescript');
     $vidDescript.text(meads.description);
 
-    $vidPlay = $('#vid1');
+    $vidPlay = $('#vidPlay');
     $vidPlay.append(meads.html);
 
   });
 }
+
+else {
+  $.getJSON('/api/brewerydb/landing.json')
+   .then(function(landing){
+     console.log(landing);
+
+     $beername = $('#beername');
+     $beername.text(landing.data.name);
+
+     $abvvalue = $('#abvvalue');
+     $abvvalue.text(landing.data.abv);
+
+     $describe = $('#describe');
+     $describe.text(landing.data.description);
+
+     $catdes = $('#catdes');
+     $catdes.text(landing.data.style.description);
+
+     //$beerimage = $('img', '.beerimage');
+    // $beerimage.attr('src', 'http://www.comradebrewing.com/wp-content/uploads/2013/08/craftbeer.jpg');
+
+   });
+}
+
 
 });

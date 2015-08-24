@@ -35,29 +35,25 @@
   <div class="unit-4-12">
      <div class="beers">
          <h3>Beer Information</h3>
-         <h4 id="beername">{{data.name}}</h4>
-         <div class="beerimage"><img src="http://lorempixel.com/output/food-q-g-530-530-7.jpg"</img></div>
+         <h4 id="beername">{{name}}</h4>
+         <div class="beerimage">
+           <img src="http://lorempixel.com/output/food-q-g-530-530-7.jpg"</img>
+         </div>
          <ul>
-           <li>ABV<p id="abvvalue">{{data.abv}}</p></li>
-           <li>Description<p id="describe">{{data.description}}</p></li>
-           <li>Category Description<p id="catdes">{{data.catdes}}</p></li>
+           <li>ABV<p id="abvvalue">{{abv}}</p></li>
+           <li>Description<p id="describe">{{description}}</p></li>
+           <li>Category Description<p id="catdes">{{catdes}}</p></li>
          </ul>
     </div>
  </div>
 
 
   <div class="unit-8-12">
-   <div class="unit-span-1" id="B-Nektar">
-     <h4 class="video name" id="nektar">{{title}}</h4>
+   <div class="unit-span-1">
+     <h4 class="video name" id="vidTitle">{{title}}</h4>
      <ul class="video">
-       <li class= "vid info" id="vid1">
-       </li>
-       <li class="vid info" id="descript1">{{description}}</li>
-         <h4 class="video name" id="meadery">{{title}}</h4>
-       <li class="vid info" id="vid2">
-         <iframe width="420" height="315" src="https://www.youtube.com/embed/c2ueyNQfnfE" frameborder="0" allowfullscreen></iframe>
-       </li>
-       <li class="vid info" id="descript2">{{description}}</li>
+       <li class="vid info" id="vidDescript">{{description}}</li>
+       <li class="vid play" id="vidPlay"></li>
      </ul>
    </div>
  </div>
