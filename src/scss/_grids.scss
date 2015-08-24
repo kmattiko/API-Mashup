@@ -1,0 +1,28 @@
+.grid {
+
+ @extend .clearfix;
+ $grid-width: 100%;
+ max-width: 80%;
+ margin: 0 auto;
+ float: inherit;
+
+ width: $grid-width;
+
+ $unit-span-ref: ($grid-width/12);
+
+ .unit-1-12 {
+   width: $unit-span-ref;
+   float: left;
+
+ .unit-4-12 {
+   @extend .unit-1-12;
+   width: $unit-span-ref * 4;
+ }
+
+ .unit-8-12 {
+   @extend .unit-1-12;
+   width: $unit-span-ref * 8;
+ }
+
+ }
+}

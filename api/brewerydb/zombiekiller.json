@@ -1,0 +1,42 @@
+{
+  "message": "Request Successful",
+  "data": {
+    "id": "3wUBDX",
+    "name": "Zombie Killer Cherry Cyser",
+    "nameDisplay": "Zombie Killer Cherry Cyser",
+    "description": "Dedicated to the freaks and the geeks! What started as a top-secret experiment with Michigan honey, cherries, and apple cider became a viral\r\nepidemic. It won\u2019t be easy to survive, so grab your weapons and don\u2019t for get to stock up on these bottles for backup. Served cold...zombies hate the cold.",
+    "abv": "5.5",
+    "availableId": 1,
+    "styleId": 148,
+    "isOrganic": "N",
+    "labels": {
+      "icon": "https:\/\/s3.amazonaws.com\/brewerydbapi\/beer\/3wUBDX\/upload_chKlgG-icon.png",
+      "medium": "https:\/\/s3.amazonaws.com\/brewerydbapi\/beer\/3wUBDX\/upload_chKlgG-medium.png",
+      "large": "https:\/\/s3.amazonaws.com\/brewerydbapi\/beer\/3wUBDX\/upload_chKlgG-large.png"
+    },
+    "status": "verified",
+    "statusDisplay": "Verified",
+    "createDate": "2013-01-24 12:02:42",
+    "updateDate": "2015-03-09 15:20:14",
+    "available": {
+      "id": 1,
+      "name": "Year Round",
+      "description": "Available year round as a staple beer."
+    },
+    "style": {
+      "id": 148,
+      "categoryId": 12,
+      "category": {
+        "id": 12,
+        "name": "Mead, Cider, & Perry",
+        "createDate": "2012-03-21 20:06:46"
+      },
+      "name": "Open Category Mead",
+      "shortName": "Mead",
+      "description": "This mead should exhibit the character of all of the ingredients in varying degrees, and should show a good blending or balance between the various flavor elements. Whatever ingredients are included, the result should be identifiable as a honey-based fermented beverage.",
+      "createDate": "2012-03-21 20:06:46",
+      "updateDate": "2015-04-07 15:48:35"
+    }
+  },
+  "status": "success"
+}

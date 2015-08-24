@@ -1,28 +1,67 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+   <meta charset="utf-8">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+   <title></title>
+   <meta name="description" content="">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- bower:css -->
-        <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
-        <!-- endbower -->
-        <
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body>
+   <!-- bower:css -->
+   <link rel="stylesheet" href="../bower_components/normalize.css/normalize.css" />
+   <!-- endbower -->
+   <link rel="stylesheet" href="css/main.css">
+</head>
 
 
+<div class="topofpage">
+ <h1>Brew Buddies</h1>
+ <h3>Our favorite selections</h3>
+ <select name="select-beer" id="dropbox">
+   <option value="choose">Select a Beer</option>
+   <option value="zombieK">Zombie Killer</option>
+   <option value="kellerW">Kellerweis</option>
+ </select>
+</div>
 
-        <!-- bower:js -->
-        <script src="../bower_components/jQuery/dist/jquery.js"></script>
-        <script src="../bower_components/modernizr/modernizr.js"></script>
-        <script src="../bower_components/lodash/lodash.js"></script>
-        <!-- endbower -->
-      <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
-    </body>
+
+<body>
+   <!-- Reference Grid 12 units -->
+ <section class="grid">
+
+  <div class="unit-4-12">
+     <div class="beers">
+         <h3>Beer Information</h3>
+         <h4 id="beername">{{name}}</h4>
+         <div class="beerimage">
+           <img src="http://lorempixel.com/output/food-q-g-530-530-7.jpg"</img>
+         </div>
+         <ul>
+           <li>ABV<p id="abvvalue">{{abv}}</p></li>
+           <li>Description<p id="describe">{{description}}</p></li>
+           <li>Category Description<p id="catdes">{{catdes}}</p></li>
+         </ul>
+    </div>
+ </div>
+
+
+  <div class="unit-8-12">
+   <div class="unit-span-1">
+     <h4 class="video name" id="vidTitle">{{title}}</h4>
+     <h4 class="vid info" id="vidDescript">{{description}}</h4>
+     <h4 class="vid play" id="vidPlay"></h4>
+   </div>
+ </div>
+</section>
+
+
+   <!-- bower:js -->
+   <script src="../bower_components/jQuery/dist/jquery.js"></script>
+   <script src="../bower_components/modernizr/modernizr.js"></script>
+   <script src="../bower_components/lodash/lodash.js"></script>
+   <script src="js/main.js"></script>
+   <!-- endbower -->
+
+</body>
+
 </html>

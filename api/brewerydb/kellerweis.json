@@ -1,0 +1,58 @@
+{
+  "message": "Request Successful",
+  "data": {
+    "id": "JVv3qI",
+    "name": "Kellerweis",
+    "nameDisplay": "Kellerweis",
+    "description": "Kellerweis is one of the only American Hefeweizens made using the traditional Bavarian style of open fermentation. This difficult and labor-intensive technique adds uncommon depth and flavor complexity. Our hazy-golden hefeweizen is deeply flavorful, refreshing and perfect for a sunny day. To serve, pour two-thirds into a glass, swirl and pour the rest.",
+    "abv": "4.8",
+    "ibu": "15",
+    "glasswareId": 5,
+    "availableId": 1,
+    "styleId": 48,
+    "isOrganic": "N",
+    "labels": {
+      "icon": "https:\/\/s3.amazonaws.com\/brewerydbapi\/beer\/JVv3qI\/upload_wqa88o-icon.png",
+      "medium": "https:\/\/s3.amazonaws.com\/brewerydbapi\/beer\/JVv3qI\/upload_wqa88o-medium.png",
+      "large": "https:\/\/s3.amazonaws.com\/brewerydbapi\/beer\/JVv3qI\/upload_wqa88o-large.png"
+    },
+    "status": "verified",
+    "statusDisplay": "Verified",
+    "createDate": "2012-01-03 02:43:33",
+    "updateDate": "2015-02-20 12:22:50",
+    "glass": {
+      "id": 5,
+      "name": "Pint",
+      "createDate": "2012-01-03 02:41:33"
+    },
+    "available": {
+      "id": 1,
+      "name": "Year Round",
+      "description": "Available year round as a staple beer."
+    },
+    "style": {
+      "id": 48,
+      "categoryId": 4,
+      "category": {
+        "id": 4,
+        "name": "German Origin Ales",
+        "createDate": "2012-03-21 20:06:46"
+      },
+      "name": "South German-Style Hefeweizen \/ Hefeweissbier",
+      "shortName": "Hefeweizen",
+      "description": "The aroma and flavor of a Weissbier with yeast is decidedly fruity and phenolic. The phenolic characteristics are often described as clove-, nutmeg-like, mildly smoke-like or even vanilla-like. Banana-like esters should be present at low to medium-high levels. These beers are made with at least 50 percent malted wheat, and hop rates are quite low. Hop flavor and aroma are absent or present at very low levels. Weissbier is well attenuated and very highly carbonated and a medium to full bodied beer. The color is very pale to pale amber. Because yeast is present, the beer will have yeast flavor and a characteristically fuller mouthfeel and may be appropriately very cloudy. No diacetyl should be perceived.",
+      "ibuMin": "10",
+      "ibuMax": "15",
+      "abvMin": "4.9",
+      "abvMax": "5.5",
+      "srmMin": "3",
+      "srmMax": "9",
+      "ogMin": "1.047",
+      "fgMin": "1.008",
+      "fgMax": "1.016",
+      "createDate": "2012-03-21 20:06:46",
+      "updateDate": "2015-04-07 15:29:27"
+    }
+  },
+  "status": "success"
+}
