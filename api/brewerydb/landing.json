@@ -4,9 +4,6 @@
     "name": "Your Chosen Beer Name",
     "description": "Choose a beer from the dropdown at the top of the page to see its description and videos on how to brew that beer. Your one stop beer page.",
     "abv": "0.0",
+    "catdes": "You will also be able to see the beer syle description. This offers a comparison of this beer to traditional beers of that same style.",
     },
-    "style": {
-      "description": "You will also be able to see the beer syle description. This offers a comparison of this beer to traditional beers of that same style.",
-    }
-  },
 }

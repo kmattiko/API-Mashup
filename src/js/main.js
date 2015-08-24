@@ -1,3 +1,22 @@
+  $.getJSON('/api/brewerydb/landing.json')
+   .then(function(landing){
+
+     $beername = $('#beername');
+     $beername.text(landing.data.name);
+
+     $abvvalue = $('#abvvalue');
+     $abvvalue.text(landing.data.abv);
+
+     $describe = $('#describe');
+     $describe.text(landing.data.description);
+
+     $catdes = $('#catdes');
+     $catdes.text(landing.data.catdes);
+
+     //$beerimage = $('img', '.beerimage');
+    // $beerimage.attr('src', 'http://www.comradebrewing.com/wp-content/uploads/2013/08/craftbeer.jpg');
+
+   });
 
 $("#dropbox").change(function beerchange() {
   if ($('#dropbox').val()=="zombieK") {
@@ -15,7 +34,7 @@ $.getJSON('/api/youtube/b-nektar.json')
   $vidDescript.text(bnektar.description);
 
   $vidPlay = $('#vidPlay');
-  $vidPlay.append(bnektar.html);
+  $vidPlay.html(bnektar.html);
 
 });
 
@@ -77,7 +96,7 @@ $.getJSON('/api/brewerydb/zombiekiller.json')
     $vidDescript.text(meads.description);
 
     $vidPlay = $('#vidPlay');
-    $vidPlay.append(meads.html);
+    $vidPlay.html(meads.html);
 
   });
 }
