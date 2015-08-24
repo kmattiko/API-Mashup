@@ -95,11 +95,8 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-   @import "_custom";
-   @import "_grids";
-
-
-
+   @import "_custom.scss";
+   @import "_grids.scss";
 
 /* ==========================================================================
    Helper classes
