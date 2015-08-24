@@ -1,10 +1,8 @@
 
-
 $("#dropbox").change(function beerchange() {
   if ($('#dropbox').val()=="zombieK") {
     console.log(beerchange);
-    alert('this is a test');
-    console.log('another test');
+
 // Youtube JSON
 $.getJSON('/api/youtube/b-nektar.json')
 .then(function(bnektar){
